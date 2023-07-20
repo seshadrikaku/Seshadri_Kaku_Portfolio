@@ -1,0 +1,53 @@
+#About {
+  background-color: rgb(244, 245, 246);
+}
+
+
+.about-me {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.about-name {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 45px;
+  color: rgb(8, 10, 11);
+}
+
+.a {
+  text-decoration: none;
+  color: rgb(0, 255, 255);
+}
+
+.seshi-edu {
+  border-radius: 100%;
+  width: 200px;
+  border: 8px solid white;
+}
+
+.S-Degree {
+  border-radius: 10px;
+  background-image: linear-gradient(to left, rgba(90, 162, 169), rgb(206, 174, 174));
+}
+
+.S-Degree:hover {
+  box-shadow: 3px 3px 5px rgb(174, 30, 30) ;
+}
+
+.per-box {
+  background: rgb(234, 227, 228);
+  border: none;
+  font-family: Arial;
+}
+
+.about-img{
+  border: 20px solid paleturquoise;
+}
+
+
+.icon{
+  color: black;
+}

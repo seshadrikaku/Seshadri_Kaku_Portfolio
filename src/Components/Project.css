@@ -1,0 +1,20 @@
+.links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.project-demo:hover {
+    animation: change 0.8s;
+    animation-fill-mode: forwards;
+  }
+
+@keyframes change {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+ 

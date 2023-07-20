@@ -1,0 +1,31 @@
+#Contact{
+    background: linear-gradient(-45deg,#939ed6,#e1abc0,#c4d5db,#23d5ab);
+    animation: gradient 10s ease-in infinite;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.ss{
+    box-shadow: rgba(237, 232, 232, 0.3) 0px 19px 38px, rgba(242, 231, 231, 0.22) 0px 15px 12px;
+}
+
+.contact-img {
+    border-radius: 50%;
+    width: 200px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.bg{
+    background:whitesmoke;
+    font-weight: 600;
+}
