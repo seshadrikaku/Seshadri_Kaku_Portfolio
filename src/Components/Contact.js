@@ -24,7 +24,7 @@ const Contact = () => {
           <div className='col-12 text-center' id='contact-us' >
             <div className='ss shadow my-5 mx-5 py-5' >
               <img src={sk} alt='seshadri.png' className='contact-img img-fluid ' />
-              <h3 className='py-3 fw-bold'>kakuseshadri033@gmail.com</h3>
+              <p className='py-3 fw-bold'>kakuseshadri033@gmail.com</p>
               <div className='d-flex justify-content-around py-3'>
               <a href='https://www.linkedin.com/in/seshadri-kaku-78735b25b' className='icon'>
               <img src='https://yt3.ggpht.com/-CepHHHB3l1Y/AAAAAAAAAAI/AAAAAAAAAAA/Z8MftqWbEqA/s900-c-k-no/photo.jpg' alt='linkedin' className='img-fluid rounded-5' style={{width:"60px"}}/>
