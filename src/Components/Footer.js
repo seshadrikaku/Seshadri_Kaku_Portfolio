@@ -4,6 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { NavLink } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -16,19 +17,19 @@ const Footer = () => {
                     <div className='col-12'>
                         <ul className='nav justify-content-center d-flex'>
                             <li className="nav-items fw-bold" >
-                                <a className="nav-link" href="/">Home</a>
+                                <NavLink className="nav-link" to="/">Home</NavLink >
                             </li>
                             <li className="nav-items fw-bold">
-                                <a className="nav-link"  href="/about">About</a >
+                                <NavLink  className="nav-link"  to="/about">About</NavLink  >
                             </li>
                             <li className="nav-items fw-bold ">
-                                <a className="nav-link"  href="/service">Services</a >
+                                <NavLink  className="nav-link"  to="/service">Services</NavLink  >
                             </li>
                             <li className="nav-items fw-bold ">
-                                <a  className="nav-link" href="/contact">Contact</a >
+                                <NavLink   className="nav-link" to="/contact">Contact</NavLink >
                             </li>
                             <li className="nav-items fw-bold">
-                                <a className="nav-link"  href="/projects">Projects</a >
+                                <NavLink  className="nav-link"  to="/projects">Projects</NavLink  >
                             </li>
                         </ul>
                     </div>
