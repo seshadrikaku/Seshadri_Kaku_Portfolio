@@ -17,19 +17,19 @@ const Footer = () => {
                     <div className='col-12'>
                         <ul className='nav justify-content-center d-flex'>
                             <li className="nav-items fw-bold" >
-                                <NavLink className="nav-link" to="/">Home</NavLink >
+                                <NavLink className="links-footer nav-link" to="/">Home</NavLink >
                             </li>
                             <li className="nav-items fw-bold">
-                                <NavLink  className="nav-link"  to="/about">About</NavLink  >
+                                <NavLink  className="links-footer nav-link"  to="/about">About</NavLink  >
                             </li>
                             <li className="nav-items fw-bold ">
-                                <NavLink  className="nav-link"  to="/service">Services</NavLink  >
+                                <NavLink  className="links-footer nav-link"  to="/service">Services</NavLink  >
                             </li>
                             <li className="nav-items fw-bold ">
-                                <NavLink   className="nav-link" to="/contact">Contact</NavLink >
+                                <NavLink   className="links-footer nav-link" to="/contact">Contact</NavLink >
                             </li>
                             <li className="nav-items fw-bold">
-                                <NavLink  className="nav-link"  to="/projects">Projects</NavLink  >
+                                <NavLink  className="links-footer nav-link"  to="/projects">Projects</NavLink  >
                             </li>
                         </ul>
                     </div>

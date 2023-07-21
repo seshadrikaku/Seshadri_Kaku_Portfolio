@@ -1,10 +1,10 @@
 li{
     list-style: none;
 }
-.nav-link{
+.links-footer{
     color: white;
 }
-.nav-link:hover{
+.links-footer:hover{
     color:wheat;
 }
 
