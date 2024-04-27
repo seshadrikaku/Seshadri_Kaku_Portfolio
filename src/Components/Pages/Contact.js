@@ -1,6 +1,6 @@
 
-import './Contact.css'
-import sk from './seshadri.jpg'
+import '../Styles/Contact.css'
+import sk from '../seshadri.jpg'
 
 const Contact = () => {
 

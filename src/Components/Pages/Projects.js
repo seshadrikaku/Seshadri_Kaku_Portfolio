@@ -1,14 +1,18 @@
 import React from 'react'
-import './Project.css'
-import UserAuth from '../assests/UserAuth.png'
-import noteapp from '../assests/noteapp.png'
-import calculator from '../assests/calculator.png'
-import college from '../assests/college.png'
-import countDown from '../assests/countDown.png'
-import Digital from '../assests/digital.png'
-import rating from '../assests/rating.png'
-import weather from '../assests/Weather.png'
-import pagination from '../assests/pagination.png'
+import '../Styles/Project.css'
+import  UserAuth from '../../assets/UserAuth.png'
+import  noteapp from '../../assets/noteapp.png'
+import  weather from '../../assets/Weather.png'
+import  Digital from '../../assets/digital.png'
+import  pagination from '../../assets/pagination.png'
+import  countDown from '../../assets/countDown.png'
+import  rating from '../../assets/rating.png'
+import  calculator from '../../assets/calculator.png'
+import  college from '../../assets/college.png'
+
+
+
+
 
 const Projects= () => {
     return (
@@ -16,6 +20,7 @@ const Projects= () => {
         <div className='container' id='project'>
           <div className='row'>
             <h2 className='fw-bold text-center my-5'>Projects</h2>
+
 
             <div className='col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 my-2 mb-3'>
               <div className='project-demo text-center shadow mx-1  mb-3 py-2 '>

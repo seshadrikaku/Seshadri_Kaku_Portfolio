@@ -1,6 +1,6 @@
 import React from 'react'
-import './about.css'
-import seshi from './seshi.jpg'
+import '../Styles/about.css'
+import seshi from '../seshi.jpg'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -16,7 +16,7 @@ const About = () => {
               <p className='about-me' >My name is </p>
               <p className='about-name'>Seshadri Kaku</p>
              
-              <p className='my-5 fs-5  fw-1'>I am  a passionate full-stack developer with a strong foundation in
+              <p className='my-5 fs-5  fw-1'>I am  a passionate Full-Stack Mobile and Web developer with a strong foundation in
                 web development. I recently graduated with a B.Sc Computer Science in 2022 and I'm eager to embark
                 on a journey in the world of technology.</p>
               <button className='btn btn-secondary my-2 mx-2'><a href='https://www.linkedin.com/in/seshadri-kaku-78735b25b ' className='a'>More about me</a></button>
@@ -43,31 +43,30 @@ const About = () => {
           <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 '>
             <div className='shadow my-3 py-2'>
               <h3 className='m-3 py-2 text-center'>Web Technologies</h3>
-              <button className=' border border-0 mx-2 px-2 rounded-2 my-2 '>HTML5</button>
+              <button className=' border border-0 mx-2 px-2 rounded-2 my-2 '>HTML</button>
               <button className='border border-0 mx-2 px-2 rounded-2 my-2'>CSS</button>
               <button className='border border-0 mx-2 px-2 rounded-2  my-2'>BOOTSTRAP</button>
               <button className='border border-0 mx-2 px-2 rounded-2 my-2'>JavaScript</button>
               <button className=' border border-0 mx-2 px-2 rounded-2  my-2'>React Js</button>
-              <button className='border border-0 mx-2 px-2 rounded-2 my-2'>Redux</button>
+
             </div>
           </div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 '>
             <div className='shadow py-2 my-3'>
-              <h3 className='m-3 py-2 text-center'>Front End Skills</h3>
-              <button className=' border border-0 mx-2 px-2 rounded-2 my-2 '>HTML5</button>
+              <h3 className='m-3 py-2 text-center'>Front end</h3>
+              <button className=' border border-0 mx-2 px-2 rounded-2 my-2 '>HTML</button>
               <button className='border border-0 mx-2 px-2 rounded-2 my-2'>CSS</button>
               <button className='border border-0 mx-2 px-2 rounded-2  my-2'>BOOTSTRAP</button>
               <button className='border border-0 mx-2 px-2 rounded-2  my-2'>JavaScript</button>
               <button className='border border-0 mx-2 px-2 rounded-2 my-2'>JQuery</button>
               <button className=' border border-0 mx-2 px-2 rounded-2  my-2'>React Js</button>
-              <button className='border border-0 mx-2 px-2 rounded-2 my-2'>Redux</button>
+             
             </div>
           </div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 '>
             <div className='shadow py-2 my-3'>
-              <h3 className='m-3 py-2 text-center'>Back End Skills</h3>
-              <button className='border border-0  mx-2 px-2 rounded-2 my-2'>JavaScript</button>
-              <button className=' border border-0 mx-2 px-2 rounded-2 my-2'>React Js</button>
+              <h3 className='m-3 py-2 text-center'>Back end</h3>
+            
               <button className=' border border-0 mx-2 px-2 rounded-2 my-2 '>Node Js</button>
               <button className='border border-0 mx-2 px-2 rounded-2 my-2'>Express Js</button>
               <button className='border border-0 mx-2 px-2 rounded-2 my-2'>Mongo DB</button>
@@ -75,14 +74,14 @@ const About = () => {
           </div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 '>
             <div className='shadow py-2 my-3'>
-              <h3 className='m-3 py-2 text-center'>Full Stack Skills</h3>
-              <button className=' border border-0 mx-2 px-2 rounded-2 my-2 '>HTML5</button>
-              <button className='border border-0 mx-2 px-2 rounded-2 my-2'>CSS</button>
-              <button className='border border-0 mx-2 px-2 rounded-2 my-2'>JavaScript</button>
-              <button className=' border border-0 mx-2 px-2 rounded-2  my-2'>React Js</button>
-              <button className=' border border-0 mx-2 px-2 rounded-2 my-2 '>Node Js</button>
-              <button className='border border-0 mx-2  px-2 rounded-2 my-2'>Express Js</button>
-              <button className='border border-0 mx-2 px-2 rounded-2  my-2'>Mongo DB</button>
+              <h3 className='m-3 py-2 text-center'>Mobile App Developer</h3>
+              <button className=' border border-0 mx-2 px-2 rounded-2 my-2 '>Dart</button>
+              <button className='border border-0 mx-2 px-2 rounded-2 my-2'>Flutter</button>
+              <button className='border border-0 mx-2 px-2 rounded-2 my-2'>Firebase</button>
+              <button className=' border border-0 mx-2 px-2 rounded-2  my-2'>Push Notification</button>
+              <button className=' border border-0 mx-2 px-2 rounded-2 my-2 '>Payment Gateways</button>
+              <button className='border border-0 mx-2  px-2 rounded-2 my-2'>RiverPod</button>
+             
             </div>
           </div>
         </div>
@@ -91,12 +90,22 @@ const About = () => {
       <div className='container'>
         <div className='row'>
           <h2 className='fw-bold text-center my-5'>Educational Qualifications</h2>
+
+          <div className='col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
+            <div className='S-Degree text-center py-3 my-2'>
+              <img src={seshi} alt='img' className='seshi-edu img-fluid mb-3 ' />
+              <h4 className='py-2'>Priyadarshini College of Engineering & Technology</h4>
+              <h3 className='py-2'>2022-2024</h3>
+              <button className='per-box px-2 py-1 my-2 '>75 %</button>
+              <h4 className='py-2'>Master of Computer Applications</h4>
+            </div>
+          </div>
           <div className='col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
             <div className='S-Degree text-center py-3 my-2'>
               <img src={seshi} alt='img' className='seshi-edu img-fluid mb-3 ' />
               <h4 className='py-2'>Viveka Arts & Science College</h4>
               <h3 className='py-2'>2019-2022</h3>
-              <button className='per-box px-2 py-1 my-2 '>Percentage : 8.16 CGPA</button>
+              <button className='per-box px-2 py-1 my-2 '>82 %</button>
               <h4 className='py-2'>B.Sc Computer Science</h4>
             </div>
           </div>
@@ -105,19 +114,11 @@ const About = () => {
               <img src={seshi} alt='img' className='seshi-edu img-fluid mb-3 ' />
               <h4 className='py-2'>Omega Junior College,Pamuru</h4>
               <h3 className='py-2'>2017-2019</h3>
-              <button className='per-box px-2 py-1 my-2 '>Percentage : 8.25 CGPA</button>
+              <button className='per-box px-2 py-1 my-2 '> 82.5 %</button>
               <h4 className='py-2'>Intermediate</h4>
             </div>
           </div>
-          <div className='col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4'>
-            <div className='S-Degree text-center py-3 my-2'>
-              <img src={seshi} alt='img' className='seshi-edu img-fluid mb-3 ' />
-              <h4 className='py-2'> Z.P.High School, Nagulavaram</h4>
-              <h3 className='py-2'>2016-2017</h3>
-              <button className='per-box px-2 py-1 my-2 '>Percentage : 8.8 CGPA</button>
-              <h4 className='py-2'>SSC</h4>
-            </div>
-          </div>
+         
         </div>
       </div>
     </>
